@@ -54,7 +54,7 @@ function evaluateRound(playerChoice, computerChoice) {
                     
                 case 'Paper':
                     document.querySelector('#singleresult').textContent = 'You win!';
-                    playerScore ++;
+                    playerScore += 1;
                     break;
                     
                 case 'Scisors':
